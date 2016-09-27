@@ -1,7 +1,7 @@
 jQuery( document ).ready( function( $ ) {
 
 	var $header = $( '.header-top' ),
-		$headerHeight = $( '.header-top' ).outerHeight(),
+		$headerHeight = $header.outerHeight(),
 		$headerOffset = $( '.custom-header' ).outerHeight(),
 		$headerHiddenClass = 'site-header-hidden',
 		$headerFixedClass = 'site-header-fixed';
